@@ -1,0 +1,84 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text.css" href="style.css">
+</head>
+<body>
+    <h2>Sign Up</h2><br>
+    <p>Create a New Account.</p>
+    <div class="loginn">
+        <form id="login" method="get" action="login.php">
+            <label
+             ><b>First Name</b>
+            </label>
+            <input type="text" name="Fname" id="FName"class="required" placeholder="First Name" required/>
+            <br><br>
+            
+            <label>
+                 <b>Last Name</b>
+            </label>
+            <input type="text" name="LName" id="LName" class="required" placeholder="Last Name" required/>
+            <br><br>
+
+            <label>
+                <b>Email Address</b>
+           </label>
+           <input type="email" name="email" id="email" class="required" placeholder="Email Address" required/>
+           <br><br>
+
+           <label>
+                <b>Phone Number</b>
+           </label>
+           <input type="number" name="phone number" id="phone number" class="required" placeholder="Phone Number" required/>
+           <br><br>
+
+           <label>
+                <b>Gender</b>
+           </label>
+           <select for="gender" name="gender" id="gender" class="required" aria-placeholder="gender" required>
+               <option value="Male">Male</option>
+               <option value="Female">Female</option>
+               <option value="I Prefer not to say">I prefer not to say</option>
+           </select>
+           <br><br>
+
+           <label>
+                <b>Age</b>
+           </label>
+           <input type="date" name="age" id="age" class="required" placeholder="age" required>
+           <br><br>
+
+            <label for="Uname">
+                <b>Username</b>
+            </label>
+            <input type="text" name="Uname" id="Uname" class="required" placeholder="Username" required/>
+            <br><br>
+
+            <label for="Password">
+                <b>Password</b>
+            </label><br>
+            <input type="password" name="Pass" id="Pass" class="required" placeholder="Password"required/>
+            <br><br>
+
+          <label for="Password">
+                <b>Confirm Password</b>
+            </label>
+            <input type="password" name="Pass" id="Pass" class="required" placeholder="Confirm Password"required/>
+            <br><br>
+
+            <button name="submit" id="submit" value="Sign up Here" onclick="validate()" required>Sign up Here</button>
+            <br><br>
+
+            <a class="message">Already have an account? </a><a href="index.html"> Log In.</a>
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>

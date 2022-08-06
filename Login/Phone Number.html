@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <h4>Phone Number</h4>
+    <p>Enter your phone number linked to your account.</p>
+    <div class="login">
+        <form id="login" method="get" action="login.php">
+            <label>
+                 <b>Phone Number:</b>
+            </label>
+            <br>
+            <input type="number" name="phone number" id="phone number" class="required" placeholder="Phone number" required/>
+            <br><br>
+            <a class="message">A verification code will be sent to your phone number.</a>
+            <br><br>
+
+            <button name="log" id="submit" value="Log In Here" onclick="validate()" required>Get Code</button>
+            <br><br>
+            
+            <a href="Forgot Password.html">Go back to Forgot Password page.</a>
+       </form>    
+    </div>
+</body>

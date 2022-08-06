@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Red+Hat+Display&display=swap");
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(#08ff);
+    font-family: 'Red Hat Display';
+    background-image: url(Mural.jpg);
+    background-size: 49.5vmax;
+}
+.login{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #33393b;
+    border-radius: 15px;
+    background-image: url(1710757.jpg);
+    background-size: cover;
+}
+.loginn{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #33393b;
+    border-radius: 15px;
+    background-image: url(IMG_1380\ \(1\).JPG);
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+h3{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+h4{
+    text-align: center;
+    color: #277582;
+    padding: 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+label{
+    color: #08ff;
+    font-size: 17px;
+}
+#submit{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-decoration: double;
+    outline: 0cm;
+    background: rgb(104, 197, 174);
+    width: 100%;
+    border: 0;
+    padding: 20px;
+    color: #f2f2f2;
+    font-size: small bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+span{
+    color: rgb(36, 188, 235);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    background-color: var(rgb);  
+    text-align: center;
+    font-family: 'Red Hat Display', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+animation{
+      animation-name: slidein;
+    animation-duration: 11s;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+@keyframes slidein {
+    from{
+       margin-left: 100%;
+       width: 20%;
+       color: rgb(120, 205, 50);
+    }
+    to{
+       margin-right: 100px;
+       width: 20%;
+       color: solid blueviolet;
+       font-weight: 75%;
+       font-stretch: expanded;
+    }
+    }
+a{
+    font-size: small;
+    color: aqua;
+    font-family: Verdana, 'Red Hat Display', Tahoma, sans-serif;
+
+}
+#login{
+    font-family: cursive;
+}
+
